@@ -278,6 +278,7 @@ vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib64/hw/fingerprint.msm8998.so
 vendor/lib64/libgf_hal.so
+vendor/lib64/libgf_algo.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
