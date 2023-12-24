@@ -55,6 +55,19 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 3120
 TARGET_SCREEN_WIDTH := 1440
 
+# Boot control
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.0-impl.recovery \
+    bootctrl.msm8998.recovery
+
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.0-impl \
+    android.hardware.boot@1.0-service \
+    bootctrl.msm8998 \
+
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl
+
 # Camera
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
