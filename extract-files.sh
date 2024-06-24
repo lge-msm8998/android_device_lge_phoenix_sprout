@@ -15,8 +15,8 @@ fi
 set -e
 
 export DEVICE=phoenix_sprout
-export DEVICE_COMMON=msm8998-common
+export DEVICE_SPECIFIED_COMMON=phoenix-common
 export VENDOR=lge
-export VENDOR_COMMON=${VENDOR}
+export VENDOR_SPECIFIED_COMMON=${VENDOR}
 
-"./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"
+"./../../${VENDOR_SPECIFIED_COMMON}/${DEVICE_SPECIFIED_COMMON}/extract-files.sh" "$@"

@@ -13,8 +13,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from phoenix_sprout device
-$(call inherit-product, device/lge/phoenix_sprout/device.mk)
+# Inherit phoenix_sprout device
+$(call inherit-product,device/lge/phoenix_sprout/device.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := phoenix_sprout
@@ -22,7 +22,7 @@ PRODUCT_NAME := lineage_phoenix_sprout
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := phoenix_sprout
 PRODUCT_MANUFACTURER := LGE
-PRODUCT_RELEASE_NAME := phoenix_sprout
+PRODUCT_RELEASE_NAME := Q9 One
 
 PRODUCT_GMS_CLIENTID_BASE := android-om-lg
 
